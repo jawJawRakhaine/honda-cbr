@@ -1,0 +1,196 @@
+/* header-section */
+header {
+  background-color: #264653;
+  width: 100%;
+  height: 80vh;
+}
+header .left {
+  color: #fff;
+}
+.header-txt .p1 {
+  margin-top: 50px;
+}
+.header-bike-img {
+  margin-top: 120px;
+}
+.navbar {
+  background: #264653;
+}
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.button {
+  background-color: #e76f51;
+}
+.button:hover {
+  background-color: #e76f51;
+}
+/* fetured-bikes */
+.fetured-bike-head-txt {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 48px;
+}
+.fetured-bike-p-txt {
+  color: #e76f51;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+}
+.feature-bike-img {
+  width: 400px;
+  height: 447px;
+}
+.feature-bike-img-gray-scale {
+  filter: grayscale(100%);
+}
+
+/* latest-news */
+.latest-news-txt {
+  margin-top: 100px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+}
+.bike1-btn {
+  background-color: #e76f51;
+  color: white;
+}
+.bike1-btn:hover {
+  color: white;
+}
+
+/* client-say-section */
+span {
+  color: #e76f51;
+}
+.user {
+  width: 149px;
+  height: 149px;
+}
+.user-3 {
+  width: 149px;
+  height: 149px;
+  border-radius: 50%;
+}
+.fas,
+.far {
+  color: #e77c40;
+}
+.client-name {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  color: #23a6f0;
+  margin-top: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.client-occupation {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  color: #252b42;
+  margin-top: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+/* frequently-asked-questions-section */
+.faq-img {
+  width: 350.8px;
+  height: 397.5px;
+}
+
+/* footer-section */
+.footer {
+  margin-top: 200px;
+  height: 280px;
+  width: 100%;
+  background-color: #0b0d17;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  margin: 10px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+ul li a:hover {
+  color: white;
+}
+.copy {
+  color: white;
+}
+.android-app,
+.ios-app {
+  width: 100px;
+  margin-top: 10px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 960px) {
+  header {
+    height: 90vh;
+  }
+  .header-txt {
+    top: 30px;
+  }
+  .header-bike-img {
+    display: block;
+    margin-top: 5px;
+    width: 80%;
+    height: 200px;
+  }
+  .feature-bike-img {
+    display: block;
+    width: 100%;
+    height: 100%px;
+    margin: 0 auto;
+  }
+  .faq-img {
+    display: block;
+    margin: 0 auto;
+  }
+  .more-updates {
+    text-align: center;
+  }
+  input {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .btn-sub {
+    display: block;
+    margin: 10px auto;
+  }
+  .find {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .find iframe {
+    border-radius: 5px;
+  }
+  .footer {
+    height: 520px;
+    margin-top: 10px;
+  }
+  .download-txt {
+    margin-top: 20px;
+  }
+  .footer-links {
+    text-align: center;
+  }
+  .get-app {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
